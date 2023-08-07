@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports  - Feature: As a data consumer, I want the user information are stored in mySql DB correctly in users table.</title>
+<title>Cucumber Reports  - Feature: As a librarian, I want to know borrowed books number</title>
 
 </head>
 <body>
@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>06 Aug 2023, 16:19</td>
+      <td>06 Aug 2023, 16:15</td>
     </tr>
   </tbody>
 </table>
@@ -126,20 +126,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">As a data consumer, I want the user information are stored in mySql DB correctly in users table.</td>
-          <td      class="passed"    >3</td>
+          <td class="tagname">As a librarian, I want to know borrowed books number</td>
           <td >0</td>
           <td >0</td>
+          <td     class="skipped"   >2</td>
           <td >0</td>
-          <td >0</td>
+          <td   class="undefined" >1</td>
           <td class="total">3</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="23480000">0.023</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="103000">0.000</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -171,9 +171,9 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
-  <span class="name">As a data consumer, I want the user information are stored in mySql DB correctly in users table.</span>
+  <span class="name">As a librarian, I want to know borrowed books number</span>
 
 
 </div>
@@ -186,102 +186,19 @@ $(document).ready(function() {
 
 
 <div class="tags indention">
-</div>
-
-
-  <span class="lead-duration duration">0.000</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
-
-<div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-1" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">Establish the database connection</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_2149507997.html">@wip</a>
-       <a href="report-tag_2147548349.html">@db</a>
-       <a href="report-tag_2147548883.html">@ui</a>
 </div>
 
 
-  <span class="lead-duration duration">0.023</span>
+  <span class="lead-duration duration">0.000</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">verify users has unique IDs</span>
+  <span class="name">verify the total amount of borrowed books</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -290,11 +207,11 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-3" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-4">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -306,29 +223,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-4" class="inner-level collapse collapsable-details ">
+    <div id="before-2" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.library.steps.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">1.861</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-              <span class="location name">com.library.steps.Hooks.setupDB()</span>
-
-  <span class="lead-duration duration">0.192</span>
+  <span class="lead-duration duration">1.481</span>
 
           </div>
 
@@ -345,9 +246,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -357,15 +258,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">Execute query to get all IDs from users</span>
+<div class="brief step-name-Given undefined">
+  <span class="keyword indention">Given</span>
+  <span class="name">the &quot;librarian&quot; on the home page</span>
 
-  <span class="lead-duration duration">0.013</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -388,11 +289,38 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">verify all users has unique ID</span>
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">the librarian gets borrowed books number</span>
 
-  <span class="lead-duration duration">0.010</span>
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">borrowed books number information must match with DB</span>
+
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -419,7 +347,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-6">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -431,29 +359,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-6" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">com.library.steps.Hooks.destroyDB()</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-          </div>
-
-
-
-
-
-
-
-        </div>
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.library.steps.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.075</span>
+  <span class="lead-duration duration">0.076</span>
 
           </div>
 
