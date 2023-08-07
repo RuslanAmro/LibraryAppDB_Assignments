@@ -1,5 +1,7 @@
 package com.library.utility;
 
+import org.openqa.selenium.WebElement;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
