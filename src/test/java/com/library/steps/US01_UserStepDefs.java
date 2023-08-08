@@ -1,6 +1,5 @@
 package com.library.steps;
 
-import com.library.pages.BookPage;
 import com.library.utility.DB_Util;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -9,10 +8,9 @@ import org.junit.Assert;
 
 import java.util.List;
 
-public class US01_UserStepsDefs {
+public class US01_UserStepDefs {
 
     String actualUserCount;
-    BookPage bookPage = new BookPage();
     List<String> actualAllColumns;
 
     @Given("Establish the database connection")
