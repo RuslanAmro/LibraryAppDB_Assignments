@@ -25,8 +25,12 @@ public class US02_DashboardStepDefs {
     @When("the librarian gets borrowed books number")
     public void the_librarian_gets_borrowed_books_number() {
 
+        // OPT 1 --> WEBELEMENT
         actualBorrowedNumber = dashBoardPage.borrowedBooksNumber.getText();
         System.out.println("actualBorrowedNumber = " + actualBorrowedNumber);
+
+        // OPT 2 --> METHOD
+        System.out.println("dashBoardPage.getModuleCount(\"Borrowed Books\") = " + dashBoardPage.getModuleCount("Borrowed Books"));
     }
 
 
