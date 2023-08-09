@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>06 Aug 2023, 16:15</td>
+      <td>09 Aug 2023, 11:29</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">As a librarian, I want to know borrowed books number</td>
+          <td      class="passed"    >3</td>
           <td >0</td>
           <td >0</td>
-          <td     class="skipped"   >2</td>
           <td >0</td>
-          <td   class="undefined" >1</td>
+          <td >0</td>
           <td class="total">3</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="103000">0.000</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="450003000">0.450</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -168,10 +168,12 @@ $(document).ready(function() {
       <div class="feature">
 
 <div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2149507997.html">@wip</a>
 </div>
 
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">As a librarian, I want to know borrowed books number</span>
 
@@ -188,15 +190,17 @@ $(document).ready(function() {
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_2149507997.html">@wip</a>
+       <a href="report-tag_2147548883.html">@ui</a>
+       <a href="report-tag_2147548349.html">@db</a>
 </div>
 
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.450</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">verify the total amount of borrowed books</span>
 
@@ -207,7 +211,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -229,7 +233,23 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.library.steps.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">1.481</span>
+  <span class="lead-duration duration">1.439</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">com.library.steps.Hooks.setupDB()</span>
+
+  <span class="lead-duration duration">0.106</span>
 
           </div>
 
@@ -246,9 +266,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -258,15 +278,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-Given undefined">
+<div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
-  <span class="name">the &quot;librarian&quot; on the home page</span>
+  <span class="name">the <span class="argument">&quot;librarian&quot;</span> on the home page</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.199</span>
 
 </div>
 
@@ -289,11 +309,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When skipped">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">the librarian gets borrowed books number</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.242</span>
 
 </div>
 
@@ -316,11 +336,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">borrowed books number information must match with DB</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.008</span>
 
 </div>
 
@@ -363,9 +383,25 @@ $(document).ready(function() {
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
+              <span class="location name">com.library.steps.Hooks.destroyDB()</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
               <span class="location name">com.library.steps.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.076</span>
+  <span class="lead-duration duration">0.080</span>
 
           </div>
 

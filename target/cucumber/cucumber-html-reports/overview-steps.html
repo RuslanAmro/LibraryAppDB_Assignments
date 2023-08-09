@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>07 Aug 2023, 20:16</td>
+      <td>09 Aug 2023, 11:29</td>
     </tr>
   </tbody>
 </table>
@@ -113,69 +113,109 @@ $(document).ready(function() {
         <tbody>
             <tr>
               <td class="location">com.library.steps.Hooks.destroyDB()</td>
-              <td>1</td>
-              <td class="duration" data-value="518000">0.000</td>
-              <td class="duration" data-value="518000">0.000</td>
-              <td class="duration" data-value="518000">0.000</td>
+              <td>3</td>
+              <td class="duration" data-value="422000">0.000</td>
+              <td class="duration" data-value="422000">0.000</td>
+              <td class="duration" data-value="1266000">0.001</td>
               <td class="passed">100.00%</td>
             </tr>
             <tr>
               <td class="location">com.library.steps.Hooks.setUp()</td>
-              <td>1</td>
-              <td class="duration" data-value="2153296000">2.153</td>
-              <td class="duration" data-value="2153296000">2.153</td>
-              <td class="duration" data-value="2153296000">2.153</td>
+              <td>3</td>
+              <td class="duration" data-value="1691732666">1.691</td>
+              <td class="duration" data-value="1691732666">2.180</td>
+              <td class="duration" data-value="5075198000">5.075</td>
               <td class="passed">100.00%</td>
             </tr>
             <tr>
               <td class="location">com.library.steps.Hooks.setupDB()</td>
-              <td>1</td>
-              <td class="duration" data-value="186598000">0.186</td>
-              <td class="duration" data-value="186598000">0.186</td>
-              <td class="duration" data-value="186598000">0.186</td>
+              <td>3</td>
+              <td class="duration" data-value="142154000">0.142</td>
+              <td class="duration" data-value="142154000">0.199</td>
+              <td class="duration" data-value="426462000">0.426</td>
               <td class="passed">100.00%</td>
             </tr>
             <tr>
               <td class="location">com.library.steps.Hooks.tearDown(io.cucumber.java.Scenario)</td>
-              <td>1</td>
-              <td class="duration" data-value="84761000">0.084</td>
-              <td class="duration" data-value="84761000">0.084</td>
-              <td class="duration" data-value="84761000">0.084</td>
+              <td>3</td>
+              <td class="duration" data-value="79020333">0.079</td>
+              <td class="duration" data-value="79020333">0.080</td>
+              <td class="duration" data-value="237061000">0.237</td>
               <td class="passed">100.00%</td>
             </tr>
             <tr>
-              <td class="location">com.library.steps.US02_BorrowedBooksDefs.borrowed_books_number_information_must_match_with_db()</td>
+              <td class="location">com.library.steps.UserStepDefs.borrowed_books_number_information_must_match_with_db()</td>
               <td>1</td>
-              <td class="duration" data-value="14938000">0.014</td>
-              <td class="duration" data-value="14938000">0.014</td>
-              <td class="duration" data-value="14938000">0.014</td>
+              <td class="duration" data-value="8298000">0.008</td>
+              <td class="duration" data-value="8298000">0.008</td>
+              <td class="duration" data-value="8298000">0.008</td>
               <td class="passed">100.00%</td>
             </tr>
             <tr>
-              <td class="location">com.library.steps.US02_BorrowedBooksDefs.the_librarian_gets_borrowed_books_number()</td>
-              <td>1</td>
-              <td class="duration" data-value="232710000">0.232</td>
-              <td class="duration" data-value="232710000">0.232</td>
-              <td class="duration" data-value="232710000">0.232</td>
+              <td class="location">com.library.steps.UserStepDefs.establish_the_database_connection()</td>
+              <td>2</td>
+              <td class="duration" data-value="4248000">0.004</td>
+              <td class="duration" data-value="4248000">0.007</td>
+              <td class="duration" data-value="8496000">0.008</td>
               <td class="passed">100.00%</td>
             </tr>
             <tr>
-              <td class="location">com.library.steps.US02_BorrowedBooksDefs.the_on_the_home_page(java.lang.String)</td>
+              <td class="location">com.library.steps.UserStepDefs.execute_query_to_get_all_columns()</td>
               <td>1</td>
-              <td class="duration" data-value="201180000">0.201</td>
-              <td class="duration" data-value="201180000">0.201</td>
-              <td class="duration" data-value="201180000">0.201</td>
+              <td class="duration" data-value="99569000">0.099</td>
+              <td class="duration" data-value="99569000">0.099</td>
+              <td class="duration" data-value="99569000">0.099</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.execute_query_to_get_all_i_ds_from_users()</td>
+              <td>1</td>
+              <td class="duration" data-value="13295000">0.013</td>
+              <td class="duration" data-value="13295000">0.013</td>
+              <td class="duration" data-value="13295000">0.013</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.the_librarian_gets_borrowed_books_number()</td>
+              <td>1</td>
+              <td class="duration" data-value="242351000">0.242</td>
+              <td class="duration" data-value="242351000">0.242</td>
+              <td class="duration" data-value="242351000">0.242</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.the_on_the_home_page(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="199354000">0.199</td>
+              <td class="duration" data-value="199354000">0.199</td>
+              <td class="duration" data-value="199354000">0.199</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.verify_all_users_has_unique_id()</td>
+              <td>1</td>
+              <td class="duration" data-value="7742000">0.007</td>
+              <td class="duration" data-value="7742000">0.007</td>
+              <td class="duration" data-value="7742000">0.007</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">com.library.steps.UserStepDefs.verify_the_below_columns_are_listed_in_result(java.util.List&lt;java.lang.String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="1567000">0.001</td>
+              <td class="duration" data-value="1567000">0.001</td>
+              <td class="duration" data-value="1567000">0.001</td>
               <td class="passed">100.00%</td>
             </tr>
         </tbody>
 
         <tfoot class="total">
           <tr>
-            <td>7</td>
-            <td>7</td>
-            <td class="duration">0.410</td>
-            <td class="duration">2.153</td>
-            <td class="duration">2.874</td>
+            <td>12</td>
+            <td>21</td>
+            <td class="duration">0.300</td>
+            <td class="duration">5.075</td>
+            <td class="duration">6.320</td>
             <td>Totals</td>
           </tr>
         </tfoot>
