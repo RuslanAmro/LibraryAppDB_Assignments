@@ -44,10 +44,8 @@ public class BookPage extends BasePage {
     public WebElement categoryDropdown;
 
 
-
     @FindBy(id = "description")
     public WebElement description;
-
 
 
     public WebElement editBook(String book) {
@@ -60,6 +58,12 @@ public class BookPage extends BasePage {
         return Driver.getDriver().findElement(By.xpath(xpath));
     }
 
+    public String getBookInfo(String infoName) {
+        String locator = "//form[@id='edit_book_form']//label[.='" + infoName + "']/../input";
+        return Driver.getDriver().findElement(By.xpath(locator)).getAttribute("value");
+    }
 
-
+    public void bookSearch(String bookName) {
+        search.sendKeys(bookName);
+    }
 }
